@@ -1,0 +1,72 @@
+.navlinks{
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+.userinfo-cont{
+    height:30rem;
+    width:20rem;
+    border:2px solid black;
+    margin:auto;
+    padding:2rem;
+    border-radius:2rem;
+}
+.about-content{
+    padding: 9rem;
+}
+
+@media only screen and (max-width: 600px){
+    .userinfo-cont{
+        width: 16rem;
+        height: 25rem;
+    }
+    .userinfo-cont img{
+        width: 15rem;
+        height: 13rem;
+    }
+    .user-info-heading{
+        font-size: 18px;
+    }
+    .about-content{
+        padding: 2rem;
+        width: 250px;
+    }
+
+}
+@media only screen and (min-width: 600px){
+     .userinfo-cont{
+        width: 16rem;
+        height: 25rem;
+    }
+    .userinfo-cont img{
+        width: 15rem;
+        height: 13rem;
+    }
+    .user-info-heading{
+        font-size: 18px;
+    }
+    .about-content{
+        padding: 2.6rem;
+        width: 80%;
+    }
+
+
+}
+@media only screen and (min-width: 768px){
+     .userinfo-cont{
+        width: 16rem;
+        height: 25rem;
+    }
+    .userinfo-cont img{
+        width: 15rem;
+        height: 13rem;
+    }
+    .user-info-heading{
+        font-size: 18px;
+    }
+    .about-content{
+        padding: 4rem;
+        width: 80%;
+    }
+
+}
